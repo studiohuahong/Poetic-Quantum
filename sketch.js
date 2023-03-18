@@ -28,7 +28,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(1024, 1366); //2732-by-2048 iPad
+  createCanvas(1024, 1346); //2732-by-2048 iPad
   background(0);
   frameRate(12);
   
