@@ -55,7 +55,7 @@ class Text {
   constructor(text,x,y,r,speedX,speedY,easing){
 	this.x = random(width);
 	this.y = random(height);
-    this.r = random(5,15);
+    this.r = random(15,30);
     this.speedX = random(0,5);
 	this.speedY = random(0,5);
     this.easing = random(0.08,0.8);

@@ -95,13 +95,13 @@ function poem1(){
   //-----------------
   // style
   fill(255,255,255,200);
-  textSize(15);
+  textSize(30);
   textFont(IBMfont);
   textAlign(CENTER, CENTER);
-  text(line1, width/2, height/2-75);
-  text(line2, width/2, height/2-25);
-  text(line3, width/2, height/2+25);
-  text(line4, width/2, height/2+75);
+  text(line1, width/2, height/2-150);
+  text(line2, width/2, height/2-50);
+  text(line3, width/2, height/2+50);
+  text(line4, width/2, height/2+150);
 
 }
 

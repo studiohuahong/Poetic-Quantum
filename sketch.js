@@ -28,7 +28,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(2048, 2732); //2732-by-2048 iPad
+  createCanvas(1024, 1366); //2732-by-2048 iPad
   background(0);
   frameRate(12);
   
@@ -91,7 +91,7 @@ function collapse(){
   if(poemIndex == 0){
     poem0();  
   }
-    if(poemIndex == 1){
+  if(poemIndex == 1){
     poem1(); 
   }
   if(poemIndex == 2){
